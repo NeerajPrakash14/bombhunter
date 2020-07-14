@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="0dp"
+    android:id="@+id/layout"
+    android:background="@drawable/gradient_list"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="4dp"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="30dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="4dp">
+
+            <Button
+                android:id="@+id/node00"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/blackballoon"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/node01"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/blackballoon"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/node02"
+                android:layout_width="69dp"
+                android:layout_height="70dp"
+                android:background="@drawable/blackballoon"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/node03"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/blackballoon"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/node04"
+                android:layout_width="68dp"
+                android:layout_height="70dp"
+                android:background="@drawable/blackballoon"
+                android:textSize="18dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="4dp">
+
+            <Button
+                android:id="@+id/node10"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:textSize="18dp"
+                android:background="@drawable/blackballoon"/>
+
+            <Button
+                android:id="@+id/node11"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:textSize="18dp"
+                android:background="@drawable/blackballoon"/>
+
+            <Button
+                android:id="@+id/node12"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:textSize="18dp"
+                android:background="@drawable/blackballoon"/>
+
+            <Button
+                android:id="@+id/node13"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:textSize="18dp"
+                android:background="@drawable/blackballoon"/>
+
+            <Button
+                android:id="@+id/node14"
+                android:layout_width="68dp"
+                android:layout_height="70dp"
+                android:textSize="18dp"
+                android:background="@drawable/blackballoon"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="4dp">
+
+            <Button
+                android:id="@+id/node20"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:textSize="18dp"
+                android:background="@drawable/blackballoon"/>
+
+            <Button
+                android:id="@+id/node21"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:textSize="18dp"
+                android:background="@drawable/blackballoon"/>
+
+            <Button
+                android:id="@+id/node22"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:textSize="18dp"
+                android:background="@drawable/blackballoon"/>
+
+            <Button
+                android:id="@+id/node23"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:textSize="18dp"
+                android:background="@drawable/blackballoon"/>
+
+            <Button
+                android:id="@+id/node24"
+                android:layout_width="68dp"
+                android:layout_height="70dp"
+                android:textSize="18dp"
+                android:background="@drawable/blackballoon"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="4dp">
+
+            <Button
+                android:id="@+id/node30"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:textSize="18dp"
+                android:background="@drawable/blackballoon"/>
+
+            <Button
+                android:id="@+id/node31"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:textSize="18dp"
+                android:background="@drawable/blackballoon"/>
+
+            <Button
+                android:id="@+id/node32"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:textSize="18dp"
+                android:background="@drawable/blackballoon"/>
+
+            <Button
+                android:id="@+id/node33"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:textSize="18dp"
+                android:background="@drawable/blackballoon"/>
+
+            <Button
+                android:id="@+id/node34"
+                android:layout_width="68dp"
+                android:layout_height="70dp"
+                android:textSize="18dp"
+                android:background="@drawable/blackballoon"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="4dp">
+
+            <Button
+                android:id="@+id/node40"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:textSize="18dp"
+                android:background="@drawable/blackballoon"/>
+
+            <Button
+                android:id="@+id/node41"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:textSize="18dp"
+                android:background="@drawable/blackballoon"/>
+
+            <Button
+                android:id="@+id/node42"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:textSize="18dp"
+                android:background="@drawable/blackballoon"/>
+
+            <Button
+                android:id="@+id/node43"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:textSize="18dp"
+                android:background="@drawable/blackballoon"/>
+
+            <Button
+                android:id="@+id/node44"
+                android:layout_width="68dp"
+                android:layout_height="70dp"
+                android:textSize="18dp"
+                android:background="@drawable/blackballoon"/>
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="4dp">
+
+            <Button
+                android:id="@+id/node50"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:textSize="18dp"
+                android:background="@drawable/blackballoon"/>
+
+            <Button
+                android:id="@+id/node51"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:textSize="18dp"
+                android:background="@drawable/blackballoon"/>
+
+            <Button
+                android:id="@+id/node52"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:textSize="18dp"
+                android:background="@drawable/blackballoon"/>
+
+            <Button
+                android:id="@+id/node53"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:textSize="18dp"
+                android:background="@drawable/blackballoon"/>
+
+            <Button
+                android:id="@+id/node54"
+                android:layout_width="68dp"
+                android:layout_height="70dp"
+                android:textSize="18dp"
+                android:background="@drawable/blackballoon"/>
+
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/newgraph_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="132dp"
+        android:text="New Game"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout" />
+
+    <TextView
+        android:id="@+id/display_graph"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="68dp"
+        android:hint="formed graph"
+        android:padding="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
